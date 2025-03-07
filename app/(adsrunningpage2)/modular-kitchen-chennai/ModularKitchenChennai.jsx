@@ -206,7 +206,11 @@ const ModularKitchenChennai = () => {
                         </li>
                         <li className="nav-item">
                             <a className={`nav-link ${activeTab1 === 'tab1-2' ? 'active' : ''}`} id="tab1-2-tab" onClick={() => setActiveTab1('tab1-2')} role="tab" aria-controls="tab1-2" aria-selected={activeTab1 === 'tab1-2'}>
+<<<<<<< HEAD
                                 Luxury
+=======
+                                Luxury Glass
+>>>>>>> master
                             </a>
                         </li>
                         <li className="nav-item">

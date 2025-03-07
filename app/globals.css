@@ -114,7 +114,12 @@ a {
 
 .Build-Décor {
     background: #4dbc15;
+<<<<<<< HEAD
     padding: 40px 0px;
+=======
+    /* padding: 40px 0px; */
+    padding: 20px 0px;
+>>>>>>> master
 }
 
 .Build-Décor h5 {
@@ -190,3 +195,9 @@ a {
 
 /* ================================================================================================= */
 
+<<<<<<< HEAD
+=======
+.nav-link{
+  cursor: pointer;
+}
+>>>>>>> master

@@ -16,7 +16,11 @@ const Footer = () => {
                             <div className="d-flex gap-3 mb-3">
                                 <div>
                                     <Link href="https://maps.app.goo.gl/NaRqbJyEBCYSS4zQ6" target="_blank">
+<<<<<<< HEAD
                                         <FaLocationDot style={{color:"blue",width:"25px",height:"25px"}}/>
+=======
+                                        <FaLocationDot style={{ color: 'blue', width: '25px', height: '25px' }} />
+>>>>>>> master
                                     </Link>{' '}
                                 </div>
                                 <div>
@@ -66,8 +70,13 @@ const Footer = () => {
                 </Container>
                 <Container fluid className="footer-copy mt-5">
                     <Row className="">
+<<<<<<< HEAD
                         <Col className="text-center pb-5 pt-3">
                             <p>Copyright © 2024 Arcmen kitchens and interiors. All Rights Reserved.</p>
+=======
+                        <Col className="text-center pb-3 pt-3">
+                            <p className="mb-1">Copyright © 2024 Arcmen kitchens and interiors. All Rights Reserved.</p>
+>>>>>>> master
                         </Col>
                     </Row>
                 </Container>
