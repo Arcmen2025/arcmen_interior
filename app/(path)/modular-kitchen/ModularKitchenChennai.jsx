@@ -147,6 +147,23 @@ const ModularKitchenChennai = () => {
         ]
     };
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+    const contentSection = {
+        tab1_1: { title: 'Island Kitchen Design' ,  content: 'Arcmen Interior Island modular Kitchen Studio we done many iconic Island modular Kitchens in Chennai, Best island Modular Kitchen designer in Chennai & Tamilnadu.' },
+        tab1_2: { title: 'Luxury Glass Modular Kitchen' , content: 'This Fully Glass Modular Kitchen made by Saint Gobin Frameless Border Glass Shutters, which gives fashionable finish & reflects the morning sun shine light in your house.' },
+        tab1_3: { title: 'Retro Modular Kitchen' , content: 'Be inspired by vintage kitchens that will never date, Making a stylish retro style Modular kitchen with our guide, is based on the original English Modular kitchen design Concepts.' },
+        tab1_4: { title: 'G-Rich Modular Kitchens', content: 'Rich and attractive acrylic mirror shine glossy modular kitchen reflects ultimate shine in your kitchen style.' },
+        tab1_5: { title: 'Eco Glass Modular Kitchens', content: 'Elevate your kitchen to a realm of modern elegance while embracing eco-friendly living.' },
+        tab1_6: { title: 'Eco Amaze' ,content: 'Best modular kitchen interior in chennai, Assure best in design, price & Quality materials' },
+        tab1_7: { title: 'Ecodura Modular Kitchen', content: 'Affordable, Durable, Simple yet Stunning: The laminated “Ecodura” range offers Unlimited Shades & Finish, offers to a without expensive price tag.' }
+    };
+
+
+=======
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
     const contentSection = {
         tab1_1: { title: 'Island Kitchen Design', content: 'Arcmen Interior Island modular Kitchen Studio we done many iconic Island modular Kitchens in Chennai, Best island Modular Kitchen designer in Chennai & Tamilnadu.' },
         tab1_2: { title: 'Luxury Glass Modular Kitchen', content: 'This Fully Glass Modular Kitchen made by Saint Gobin Frameless Border Glass Shutters, which gives fashionable finish & reflects the morning sun shine light in your house.' },
@@ -157,6 +174,10 @@ const ModularKitchenChennai = () => {
         tab1_7: { title: 'Ecodura Modular Kitchen', content: 'Affordable, Durable, Simple yet Stunning: The laminated “Ecodura” range offers Unlimited Shades & Finish, offers to a without expensive price tag.' }
     };
 
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
     const getActiveContent = () => {
         if (activeTab1 !== 'tab1-1') {
             return contentSection[`tab1_${activeTab1.split('-')[1]}`];
@@ -203,7 +224,15 @@ const ModularKitchenChennai = () => {
                         </li>
                         <li className="nav-item">
                             <a className={`nav-link ${activeTab1 === 'tab1-2' ? 'active' : ''}`} id="tab1-2-tab" onClick={() => setActiveTab1('tab1-2')} role="tab" aria-controls="tab1-2" aria-selected={activeTab1 === 'tab1-2'}>
+<<<<<<< HEAD
                                 Luxury Glass
+=======
+<<<<<<< HEAD
+                                Luxury
+=======
+                                Luxury Glass
+>>>>>>> master
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
                             </a>
                         </li>
                         <li className="nav-item">

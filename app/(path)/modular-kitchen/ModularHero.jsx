@@ -100,9 +100,15 @@ const ModularHero = () => {
                 <Container fluid>
                     <Row>
                         <Col lg={12} className="p-0 hero-banner">
+<<<<<<< HEAD
                             <Carousel fade className="modular-kitchen-carousel-container">
                                 <Carousel.Item>
                                     <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740397907/modular-kitchen-banner_kbj17s.jpg" alt="Third slide" />
+=======
+                            <Carousel fade className='modular-kitchen-carousel-container'>
+                                <Carousel.Item>
+                                    <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740398441/modular-Kitchen-banner2_nccepg.jpg" alt="First slide" />
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
                                     <Carousel.Caption>
                                         <h3>Unleash the Chef in You with Our Modular Kitchens!</h3>
                                         <p>"Effortless Cooking, Timeless Style"</p>
@@ -118,7 +124,11 @@ const ModularHero = () => {
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     {/* <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735797101/arcmen/modular-kitchen-chennai/modular-banner-3.jpg" alt="Third slide" /> */}
+<<<<<<< HEAD
                                     <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740398441/modular-Kitchen-banner2_nccepg.jpg" alt="First slide" />
+=======
+                                    <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740397907/modular-kitchen-banner_kbj17s.jpg" alt="Third slide" />
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
                                     <Carousel.Caption>
                                         <h3>Your Dream Kitchen, Crafted to Perfection!</h3>
                                         <p>"Innovative Designs, Elegant Spaces"</p>
@@ -209,8 +219,12 @@ const ModularHero = () => {
                                 <h3>What we do?</h3>
                                 <p>We make your dreams come true, Your interior is in our hands, and all you have left is to enjoy!</p>
                                 <li>
+<<<<<<< HEAD
                                     <FaCheck />
                                     Best kitchen expert Chennai & Tamil nadu
+=======
+                                    <FaCheck />Best kitchen expert Chennai & Tamil nadu
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
                                 </li>
                                 <li>
                                     <FaCheck /> Expert of Luxury & German Kitchen making

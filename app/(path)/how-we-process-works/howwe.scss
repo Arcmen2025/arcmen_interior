@@ -1,3 +1,92 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.how-we-process{
+    background-image: url('https://res.cloudinary.com/dpflidsbg/image/upload/v1737370714/arcmen/how-we-process-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.how-we-process{
+    h1{
+        color:#fff;
+        font-size: 30px;
+    }
+    p{
+        color:#fff;
+        font-size:18px;
+    }
+    a{
+        color:#ffff;
+    }
+}
+.looking-best{
+   
+    text-align: center;
+}
+.looking-best h2{
+    font-size: 30px !important;
+
+}
+.looking-sec{
+    padding-top:70px;
+    padding-bottom: 0px;
+}
+.looking-sec img{
+    width:10%;
+}
+.line-sec img{
+width: 60% !important;
+}
+.process-box{
+    h2{
+       font-size: 40px;
+       text-align: left;
+       color: #02010140 !important;
+    }
+    span{
+       font-size: 40px;
+       text-align: left;
+       color: #02010140 !important;
+       margin-right: 10px;
+    }
+    p{
+        font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    }
+}
+.line-sec{
+    justify-content: center;
+}
+.process-box{
+    text-align: center;
+}
+.talk-our{
+    padding-top:50px;
+    
+    img{
+        width:100%;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+        color:#131d3b;
+    }
+    .time-look{
+        padding-top:30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+position: relative;
+
+        h3{
+            position: relative;
+
+        }
+        h3:before{
+=======
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
 //===========================================================================================================
 //===========================================================================================================
 //===========================================================================================================
@@ -220,13 +309,37 @@
         }
 
         h3:before {
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
             // content: "";
             content: url('https://res.cloudinary.com/dpflidsbg/image/upload/v1741094918/icons8-arrow-60_sy6prn.png');
             position: absolute;
             width: 30px;
             height: 30px;
+<<<<<<< HEAD
             background: #74a340;
             border-radius: 50%;
+=======
+            background: #706e6e;
+            border-radius: 50%;
+<<<<<<< HEAD
+            left: -40px;
+            // top: 5px;
+            padding:6px;
+        }
+        h3:hover:before{
+           background:red; 
+        }
+    }
+
+}
+.time-look:before{
+    position: absolute;
+    content: "";
+=======
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
             left: -38px;
             // top: 5px;
             padding: 6px;
@@ -235,7 +348,11 @@
             content: '' !important; // Set content to an empty string
         }
         h3:hover:before {
+<<<<<<< HEAD
             background: #7c381a;
+=======
+            background: red;
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
         }
     }
 }
@@ -244,7 +361,11 @@
     content: '';
     width: 2px;
     background: #6b6969;
+<<<<<<< HEAD
     height: 54% !important;
+=======
+    height: 56% !important;
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
     left: 7px;
     top: 40px;
 }
@@ -264,12 +385,38 @@
 .time-look:before {
     position: absolute;
     content: '';
+<<<<<<< HEAD
     width: 2px;
     background: #74a340;
+=======
+>>>>>>> master
+    width: 2px;
+    background: #6b6969;
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
     height: 78%;
     left: 7px;
     top: 40px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.time-look h3{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px; 
+
+    p{
+        color:#777777d9;
+    }
+
+    
+}
+.talk-our img{
+    border-radius: 70px 5px 70px 05px;
+}
+=======
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
 .time-look h3 {
     color: #000000;
     font-size: 20px;
@@ -286,7 +433,11 @@
 
 @media screen and (max-width: 768px) {
     .time-line-look-2:before {
+<<<<<<< HEAD
         height: 57% !important;
+=======
+        height: 56% !important;
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
     }
     .time-line-look5:before {
         height: 74% !important;
@@ -324,3 +475,7 @@
         width: 25%;
     }
 }
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
