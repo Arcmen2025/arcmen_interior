@@ -38,11 +38,7 @@ export default function RootLayout({ children }) {
             <head>
                 <meta name="google-site-verification" content="ZD66ucWU0I3F252vjV3PMyMHn4gLa3PvTRMNXJyGdcI" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<<<<<<< HEAD
 
-=======
-                
->>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
                 <link rel="icon" href="https://res.cloudinary.com/dpflidsbg/image/upload/v1735293696/arcmen/fav-icon.jpg" type="image/x-icon" sizes="any" />
                 <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16699501737"></Script>
 
@@ -55,7 +51,6 @@ export default function RootLayout({ children }) {
                     `}
                 </Script>
 
-<<<<<<< HEAD
                 <Script id="clarity-script" type="text/javascript">
                     {`
         (function(c,l,a,r,i,t,y){
@@ -65,8 +60,6 @@ export default function RootLayout({ children }) {
         })(window, document, "clarity", "script", "qmef31ybn0");
     `}
                 </Script>
-=======
->>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
             </head>
             <body>
                 {/* <Header /> */}

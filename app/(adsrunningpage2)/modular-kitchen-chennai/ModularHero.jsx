@@ -145,13 +145,8 @@ const ModularHero = () => {
                 <Container fluid>
                     <Row>
                         <Col lg={12} className="p-0 hero-banner">
-<<<<<<< HEAD
                             <Carousel fade className="modular-carousal">
                                 <Carousel.Item>
-=======
-                            <Carousel fade className='modular-carousal'>
-                                <Carousel.Item >
->>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
                                     {/* <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735796661/arcmen/modular-kitchen-chennai/modular-babner-1.jpg" alt="First slide" /> */}
                                     <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740398441/modular-Kitchen-banner2_nccepg.jpg" alt="First slide" />
                                     <Carousel.Caption>
@@ -260,12 +255,8 @@ const ModularHero = () => {
                                 <h3>What we do?</h3>
                                 <p>We make your dreams come true, Your interior is in our hands, and all you have left is to enjoy!</p>
                                 <li>
-<<<<<<< HEAD
                                     <FaCheck />
                                     Best kitchen expert Chennai & Tamil nadu
-=======
-                                    <FaCheck />Best kitchen expert Chennai & Tamil nadu
->>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
                                 </li>
                                 <li>
                                     <FaCheck /> Expert of Luxury & German Kitchen making
@@ -343,11 +334,7 @@ const ModularHero = () => {
                 </Container>
             </section>
 
-<<<<<<< HEAD
             <section>
-=======
-<section>
->>>>>>> 0f95d4f2530f5a07d6ab89fadb5aae8941acd52e
                 <Container>
                     <Row>
                         <Col lg={12}>
