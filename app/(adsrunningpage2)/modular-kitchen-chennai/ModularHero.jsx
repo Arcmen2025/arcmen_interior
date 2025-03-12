@@ -148,7 +148,7 @@ const ModularHero = () => {
                             <Carousel fade className="modular-carousal">
                                 <Carousel.Item>
                                     {/* <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735796661/arcmen/modular-kitchen-chennai/modular-babner-1.jpg" alt="First slide" /> */}
-                                    <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740398441/modular-Kitchen-banner2_nccepg.jpg" alt="First slide" />
+                                    <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740397907/modular-kitchen-banner_kbj17s.jpg" alt="First slide" />
                                     <Carousel.Caption>
                                         <h3>Unleash the Chef in You with Our Modular Kitchens!</h3>
                                         <p>"Effortless Cooking, Timeless Style"</p>
@@ -164,7 +164,7 @@ const ModularHero = () => {
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     {/* <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735797101/arcmen/modular-kitchen-chennai/modular-banner-3.jpg" alt="Third slide" /> */}
-                                    <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740397907/modular-kitchen-banner_kbj17s.jpg" alt="Third slide" />
+                                    <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740398441/modular-Kitchen-banner2_nccepg.jpg" alt="Third slide" />
                                     <Carousel.Caption>
                                         <h3>Your Dream Kitchen, Crafted to Perfection!</h3>
                                         <p>"Innovative Designs, Elegant Spaces"</p>
