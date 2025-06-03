@@ -189,6 +189,9 @@ a {
     .popup-img {
         display: none !important;
     }
+    .architecuralPage {
+        margin-top: 0px;
+    }
 }
 
 /* ================================================================================================= */
@@ -201,4 +204,8 @@ a {
     border: 0px !important; /* Change border color to red */
     --bs-btn-close-color: #ff0000 !important; /* Change SVG color to red */
     background-color: #858585;
+}
+
+.architecuralPage {
+    margin-top: 8rem;
 }
