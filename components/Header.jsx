@@ -160,7 +160,8 @@ const Header = () => {
 
     return (
         <>
-            <section style={{ marginBottom: '80px' }}>
+            {/* <section style={{ marginBottom: '80px' }}> */}
+            <section className='mb-5'>
                 <div className="fixed-navbar">
                     <section className="header-body d-none d-lg-block">
                         <Container>

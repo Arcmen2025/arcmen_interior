@@ -560,7 +560,7 @@ const Page = () => {
     return (
         <div>
             <section>
-                <Container fluid className="head-inter align-content-center">
+                <Container fluid className="head-inter align-content-center architecuralPage">
                     <Row>
                         <Col className="text-center p-0 m-0">
                             <h1 className="p-0 m-0">{mappedData.headingTitel}</h1>
