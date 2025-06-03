@@ -177,22 +177,22 @@ const Header = () => {
                                         </li>
                                         <li>
                                             <Link href="https://www.facebook.com/arcmeninteriordesign/" alt="facebook">
-                                                <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189618/arcmen/Icons/facebook.png" loading="lazy" alt="facebook" className="img-fluid" width={25} />
+                                                <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189618/arcmen/Icons/facebook.png" loading="lazy" alt="facebook" className="img-fluid" style={{ width: '25px' }} />
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="https://www.instagram.com/arcmeninteriordesigner/" alt="instagram">
-                                                <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189754/arcmen/Icons/instagram.png" alt="instagram" className="img-fluid" loading="lazy" width={25} />
+                                                <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189754/arcmen/Icons/instagram.png" alt="instagram" className="img-fluid" loading="lazy" style={{ width: '25px' }} />
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="https://www.youtube.com/channel/UCRD1RPuq6W64Z4TGoVDIByw" alt="youtube">
-                                                <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189796/arcmen/Icons/youtube.png" alt="youtube" className="img-fluid" loading="lazy" width={25} />
+                                                <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189796/arcmen/Icons/youtube.png" alt="youtube" className="img-fluid" loading="lazy" style={{ width: '25px' }} />
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="https://in.pinterest.com/arcmeninteriordesign/" alt="pinterest">
-                                                <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189675/arcmen/Icons/pinterest.png" loading="lazy" alt="pinterest" className="img-fluid" width={25} />
+                                                <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189675/arcmen/Icons/pinterest.png" loading="lazy" alt="pinterest" className="img-fluid" style={{ width: '25px' }} />
                                             </Link>
                                         </li>
                                     </ul>
