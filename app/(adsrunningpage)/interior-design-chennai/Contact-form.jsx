@@ -6,6 +6,7 @@ import Swal from 'sweetalert2';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 const ContactForm = () => {
+    console.log(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY, "process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY")
     const [formData, setFormData] = useState({
         name: '',
         email: '',

@@ -300,7 +300,7 @@ const HowweHero = () => {
             <section className="how-we-process">
                 <Container>
                     <Row>
-                        <Col className="text-center">
+                        <Col className="text-center my-auto mt-5">
                             <h1>How We Process Works </h1>
                             <p>
                                 <a href="/">Home</a> / <a href="#">How we process works</a>
@@ -320,7 +320,7 @@ const HowweHero = () => {
                         </Col>
                         <Col lg={12}>
                             <div className="looking-best">
-                                <h2>Acrmen Challenge no one can provide our trusted</h2>
+                                <h2>Arcmen Challenge no one can provide our trusted</h2>
                                 <h2>Payment method and easy working process</h2>
                             </div>
                         </Col>
@@ -346,7 +346,8 @@ const HowweHero = () => {
                                     <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1741271855/engineer_fxtvzw.png"></img>
                                 </section>
                                 <p>
-                                    <span>1.</span> Talk To Our Expert & Get Free Quote
+                                    <span style={{ color: "#800806", fontSize: "22px" }}>1.</span>  Talk To Our Expert & Get
+                                    Free Quote
                                 </p>
                             </div>
                         </Col>
@@ -364,7 +365,7 @@ const HowweHero = () => {
                                     <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1741271855/brainstorming_ryhymn.png"></img>
                                 </section>
                                 <p>
-                                    <span>2. </span> Pay  10%  Brainstorming the design
+                                    <span style={{ color: "#800806", fontSize: "22px" }}>2. </span> Pay  10%  Brainstorming  the design
                                 </p>
                             </div>
                         </Col>
@@ -381,7 +382,7 @@ const HowweHero = () => {
                                     <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1741271855/handshake_ja2l4c.png"></img>
                                 </section>
                                 <p>
-                                    <span>3. </span>Pay 50% Freeze your deisgn
+                                    <span style={{ color: "#800806", fontSize: "22px" }}>3. </span>Pay 50% Freeze your deisgn
 
                                     <ul style={{ textAlign: "start" }}>
                                         <li>Start production</li>
@@ -404,7 +405,7 @@ const HowweHero = () => {
                                     <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1741271855/handover_xloi0r.png"></img>
                                 </section>
                                 <p>
-                                    <span>4. </span>
+                                    <span style={{ color: "#800806", fontSize: "22px" }}>4. </span>
                                     Pay 40%
                                     complete the project & Handing Over
                                 </p>
@@ -424,7 +425,7 @@ const HowweHero = () => {
                                 </section>
                                 <p>
                                     {' '}
-                                    <span>5. </span>Move in & Made Friends
+                                    <span style={{ color: "#800806", fontSize: "22px" }}>5. </span>Move in & Made Friends
                                 </p>
                             </div>
                         </Col>
@@ -441,7 +442,7 @@ const HowweHero = () => {
                         </Col>
                         <Col sm={12} md={6} lg={6}>
                             <div className="">
-                                <h4>1 . TALK OUR EXPERT MEET OUR DESIGNER</h4>
+                                <h4> <span style={{ color: "#800806", fontSize: "30px" }}>1.</span>TALK TO OUR EXPERT MEET OUR DESIGNER</h4>
                                 <div className="time-look time-line-look">
                                     <h3>Get Free Expert consultation</h3>
                                     <p>Visit Our Design Studio & Experience Centre</p>
@@ -471,7 +472,7 @@ const HowweHero = () => {
                     <Row>
                         <Col sm={12} md={6} lg={6}>
                             <div className="">
-                                <h4>2. BRAINSTROMING| BOOK 10% TO INITIATE FOR DETAIL DRAWING & 3D PRESENTATION</h4>
+                                <h4> <span style={{ color: "#800806", fontSize: "30px" }}>2.</span> PAY 10% BRAINSTORMING THE DESIGN</h4>
                                 <div className="time-look time-line-look-2">
                                     <h3></h3>
                                     <p>
@@ -515,7 +516,7 @@ const HowweHero = () => {
                         </Col>
                         <Col sm={12} md={6} lg={6}>
                             <div className="">
-                                <h4>3. FREEZE YOUR ORDER WITH 50% PAYMENT AND START PRODUCTION</h4>
+                                <h4> <span style={{ color: "#800806", fontSize: "30px" }}>3.</span> PAY 50% FREEZE YOUR DESIGN & START PRODUCTION</h4>
                                 <div className="time-look">
                                     <h3></h3>
                                     <p>
@@ -565,7 +566,7 @@ const HowweHero = () => {
                         <Col sm={12} md={6} lg={6}>
                             <div className="">
                                 {/* <h4>4. PAY 100% HANDING OVER AND MADE FRIENDS</h4> */}
-                                <h4>4. PAY 100% HANDING OVER AND MADE FRIENDS</h4>
+                                <h4> <span style={{ color: "#800806", fontSize: "30px" }}>4.</span> PAY 40% COMPLETE THE PROJECT & HANDING OVER</h4>
                                 <div className="time-look time-line-look4">
                                     <h3></h3>
                                     <p>Install Remaining works of Shutters, Accessories, Hardware, soft furnishings, wall papers, Crafted Items, Appliances, painting, Polishing and Etc..</p>
@@ -602,7 +603,7 @@ const HowweHero = () => {
                         </Col>
                         <Col sm={12} md={6} lg={6}>
                             <div className="">
-                                <h4>5. Step Into Luxury</h4>
+                                <h4> <span style={{ color: "#800806", fontSize: "30px" }}   >5.</span> MOVE IN & MADE FRIENDS</h4>
                                 <div className="time-look time-line-look5">
                                     <h3></h3>
                                     <p>Thanks to become Arcmen family</p>
