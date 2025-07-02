@@ -320,8 +320,8 @@ const HowweHero = () => {
                         </Col>
                         <Col lg={12}>
                             <div className="looking-best">
-                                <h2>Looking For a Best Interior Designer?</h2>
-                                <h2>Here's How You Can Get Started.</h2>
+                                <h2>Acrmen Challenge no one can provide our trusted</h2>
+                                <h2>Payment method and easy working process</h2>
                             </div>
                         </Col>
                         <Col className="text-start text-md-center">
@@ -364,7 +364,7 @@ const HowweHero = () => {
                                     <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1741271855/brainstorming_ryhymn.png"></img>
                                 </section>
                                 <p>
-                                    <span>2. </span>Brainstorming (10% Payment)
+                                    <span>2. </span> Pay  10% Payment Brainstorming the design
                                 </p>
                             </div>
                         </Col>
@@ -381,7 +381,13 @@ const HowweHero = () => {
                                     <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1741271855/handshake_ja2l4c.png"></img>
                                 </section>
                                 <p>
-                                    <span>3. </span>Freeze your order with 50% payment and start production
+                                    <span>3. </span>Pay 50% Freeze your deisgn
+
+                                    <ul style={{ textAlign: "start" }}>
+                                        <li>Start production</li>
+
+                                        <li>Complete 70% work on site</li>
+                                    </ul>
                                 </p>
                             </div>
                         </Col>
@@ -399,7 +405,8 @@ const HowweHero = () => {
                                 </section>
                                 <p>
                                     <span>4. </span>
-                                    Handing Over And Made Friends (40% payment )
+                                    Pay 40%
+                                    complete the project & Handing Over
                                 </p>
                             </div>
                         </Col>
@@ -417,7 +424,7 @@ const HowweHero = () => {
                                 </section>
                                 <p>
                                     {' '}
-                                    <span>5. </span>Move in
+                                    <span>5. </span>Move in & Made Friends
                                 </p>
                             </div>
                         </Col>
