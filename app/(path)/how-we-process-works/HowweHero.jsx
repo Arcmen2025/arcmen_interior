@@ -364,7 +364,7 @@ const HowweHero = () => {
                                     <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1741271855/brainstorming_ryhymn.png"></img>
                                 </section>
                                 <p>
-                                    <span>2. </span> Pay  10% Payment Brainstorming the design
+                                    <span>2. </span> Pay  10%  Brainstorming the design
                                 </p>
                             </div>
                         </Col>
