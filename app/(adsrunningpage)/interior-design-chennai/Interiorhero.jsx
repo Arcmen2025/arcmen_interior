@@ -350,7 +350,7 @@ const Interiorhero = () => {
             <section className="wedesign-your">
                 <Container>
                     <Row>
-                        <div className="text-right">
+                        <div className="text-centerFill out all required fields below and we will get back to you as soon as possible">
                             <h3>We design your home</h3>
                         </div>
                         <Landingslider />
@@ -410,7 +410,7 @@ const Interiorhero = () => {
                                 <Modal.Header closeButton style={{ borderBottom: '0px' }}>
                                     <Modal.Title></Modal.Title>
                                 </Modal.Header>
-                                <Modal.Body className="pe-0 pb-0 pl-1" style={{ paddingTop: '4px' }}>
+                                <Modal.Body className="pe-0 pb-0 pl-1">
                                     <div className="popup-fminter">
                                         <div className="form-inter">
                                             <p>Fill out all required fields below and we will get back to you as soon as possible</p>

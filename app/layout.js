@@ -6,8 +6,8 @@ import Footer from '../components/Footer.jsx';
 import Script from 'next/script';
 
 export const metadata = {
-    title: 'Interior designers in chennai | Home interior designer in chennai',
-    description: ['Premium Best interior designer Chennai, Award winner', 'We Assure 100% Desing & work satisfy', '15yr Warranty, 3500+ Complete Project'],
+    title: 'Best Interior designers & decorators in chennai | Arcmen',
+    description: ['With 25 years of experience and 2000 + happy clients, Arcmen Interiors is one of the Top interior designers & decorators company in chennai. Lets build dreams'],
     keywords: [
         'Interior designer',
         'Best Interior Designers in Chennai',

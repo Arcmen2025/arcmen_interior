@@ -603,7 +603,7 @@ const Header = () => {
                                     </Modal.Header>
                                     <Modal.Body className="pe-0 pb-0 pl-1" style={{ paddingTop: '4px' }}>
                                         <div className="popup-fminter">
-                                            <div className="form-inter">
+                                            <div className="form-inter mt-3">
                                                 <p>Fill out all required fields below and we will get back to you as soon as possible</p>
                                                 <form onSubmit={handleSubmit} className="con-form-page">
                                                     <Row>

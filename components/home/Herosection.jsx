@@ -27,8 +27,13 @@ const Herosection = () => {
     const handleShow = () => setShow(true);
 
     useEffect(() => {
-        setShow(true); // Show the modal on component mount
+        const timer = setTimeout(() => {
+            setShow(true);
+        }, 4000);
+
+        return () => clearTimeout(timer);
     }, []);
+
     const validate = () => {
         let tempErrors = {};
         let isValid = true;
@@ -191,35 +196,35 @@ const Herosection = () => {
                                     <Modal.Title></Modal.Title>
                                 </Modal.Header>
                                 <Modal.Body className="pe-0 pb-0 pl-1" style={{ paddingTop: '8px' }}>
-                                    <div className="popup-fminter">
-                                        <div className="form-inter">
+                                    <div className="popup-fminter d-flex align-items-center">
+                                        <div className="text-center lh-base form-inter">
                                             <p>Fill out all required fields below and we will get back to you as soon as possible.</p>
-                                            <form onSubmit={handleSubmit} className="con-form-page">
+                                            <form onSubmit={handleSubmit} className="con-form-page ">
                                                 <Row>
                                                     <Col xs={12}>
                                                         <div className="mb-2">
-                                                            <Form.Control type="text" id="name" name="name" value={formData.name} onChange={handleChange} placeholder="Name *" className="w-100 p-2" required />
+                                                            <Form.Control type="text" id="name" name="name" value={formData.name} onChange={handleChange} placeholder="Name *" className="w-100 p-2 fs_12" required />
                                                         </div>
                                                     </Col>
                                                     <Col xs={12}>
                                                         <div className="mb-2">
-                                                            <Form.Control type="email" id="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" className="w-100 p-2" />
+                                                            <Form.Control type="email" id="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" className="w-100 p-2 fs_12 " />
                                                         </div>
                                                     </Col>
                                                     <Col xs={12}>
                                                         <div className="mb-2">
-                                                            <Form.Control type="tel" id="mobile" name="mobile" value={formData.mobile} onChange={handleChange} placeholder="Mobile *" className="w-100 p-2" required />
+                                                            <Form.Control type="tel" id="mobile" name="mobile" value={formData.mobile} onChange={handleChange} placeholder="Mobile *" className="w-100 p-2 fs_12" required />
                                                         </div>
                                                     </Col>
                                                     <Col xs={12}>
                                                         <div className="mb-2">
-                                                            <Form.Control type="text" id="location" name="location" value={formData.location} onChange={handleChange} placeholder="Location *" className="w-100 p-2" required />
+                                                            <Form.Control type="text" id="location" name="location" value={formData.location} onChange={handleChange} placeholder="Location *" className="w-100 p-2 fs_12" required />
                                                         </div>
                                                     </Col>
 
                                                     <Col xs={12}>
                                                         <div className="mb-4">
-                                                            <Form.Select id="serviceName" name="serviceName" value={formData.serviceName} onChange={handleChange} className="w-100 p-2" required>
+                                                            <Form.Select id="serviceName" name="serviceName" value={formData.serviceName} onChange={handleChange} className="w-100 p-2 fs_12" required>
                                                                 <option value="">Services</option>
                                                                 <option value="Interior Design">Interior Design</option>
                                                                 <option value="Architectural Services">Architectural Services</option>
