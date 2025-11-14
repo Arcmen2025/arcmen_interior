@@ -64,7 +64,7 @@ const Quickservice = () => {
                     text: 'Your request has been submitted successfully. Our team will get in touch with you soon.',
                     timer: 3000
                 })
-                if(response) {
+                if (response) {
                     setFormData({
                         email: '',
                         mobile: '',
@@ -100,14 +100,14 @@ const Quickservice = () => {
                                             className="w-100 p-2"
                                             required
                                         >
-                                            <option value="">Select Service</option>
-                                            <option value="Interior Design">Interior Design</option>
-                                            <option value="Architectural Services">Architectural Services</option>
+                                            <option value="">Services</option>
+                                            <option value="Full home interior decor">Full home interior decor</option>
                                             <option value="Modular Kitchen">Modular Kitchen</option>
+                                            <option value="Interior Design">Renovation </option>
+                                            <option value="Architectural Services">Architectural Services</option>
                                             <option value="Turnkey Service">Turnkey Service</option>
-                                            <option value="Renovation">Renovation</option>
                                         </select>
-                                        {errors.serviceName && <p className="error" style={{color:"red"}}>{errors.serviceName}</p>}
+                                        {errors.serviceName && <p className="error" style={{ color: "red" }}>{errors.serviceName}</p>}
                                     </div>
                                     <div className="mb-4">
                                         <input
@@ -120,7 +120,7 @@ const Quickservice = () => {
                                             className="w-100 p-2"
                                             required
                                         />
-                                        {errors.email && <p className="error" style={{color:"red"}} >{errors.email}</p>}
+                                        {errors.email && <p className="error" style={{ color: "red" }} >{errors.email}</p>}
                                     </div>
                                     <div className="mb-4">
                                         <input
@@ -133,9 +133,9 @@ const Quickservice = () => {
                                             className="w-100 p-2"
                                             required
                                         />
-                                        {errors.mobile && <p className="error" style={{color:"red"}}>{errors.mobile}</p>}
+                                        {errors.mobile && <p className="error" style={{ color: "red" }}>{errors.mobile}</p>}
                                     </div>
-                                    <button type="submit" style={{color:"white",borderRadius:"5px"}}>SUBMIT</button>
+                                    <button type="submit" style={{ color: "white", borderRadius: "5px" }}>SUBMIT</button>
                                 </form>
                             </div>
                         </Col>

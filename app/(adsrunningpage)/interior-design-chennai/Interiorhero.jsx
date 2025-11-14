@@ -458,19 +458,6 @@ const Interiorhero = () => {
                                                             {errors.interiorType && <span className="text-danger">{errors.interiorType}</span>}
                                                         </div>
                                                     </Col>
-
-                                                    <Col xs={12}>
-                                                        <div className="mb-2">
-                                                            <Form.Select id="budget" name="budget" value={formData.budget} onChange={handleChange} placeholder="Project Value" className="w-100" required>
-                                                                <option value="">Project Value</option>
-                                                                <option value="Above 8 Lakhs">Above 8 Lakhs</option>
-                                                                <option value="Above 15 Lakhs">Above 15 Lakhs</option>
-                                                                <option value="Above 20 Lakhs">Above 20 Lakhs</option>
-                                                                <option value="Above 25 Lakhs">Above 25 Lakhs</option>
-                                                            </Form.Select>
-                                                            {errors.budget && <span className="text-danger">{errors.budget}</span>}
-                                                        </div>
-                                                    </Col>
                                                     <Col lg={12}>
                                                         <div className="mb-2 ">
                                                             <div className="mb-4">

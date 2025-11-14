@@ -98,7 +98,7 @@ const Homepopup = () => {
                             <label htmlFor="vehicle3"> 4Bhk</label>
                         </div>
                     </Col>
-                    <Col xs={12}>
+                    {/* <Col xs={12}>
                         <div className="mb-2">
                             <select id="budget" name="budget" value={formData.budget} onChange={handleChange} placeholder="Select Project Value" className="w-100 p-2" required>
                                 <option value="">Select Project Value</option>
@@ -108,8 +108,7 @@ const Homepopup = () => {
                                 <option value="Turnkey Service">Above 15 Lakhs</option>
                             </select>
                         </div>
-                    </Col>
-
+                    </Col> */}
                     <Col lg={12}>
                         <div className="mb-2 ">
                             <div className="mb-4">

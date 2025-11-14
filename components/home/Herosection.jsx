@@ -195,9 +195,9 @@ const Herosection = () => {
                                 <Modal.Header closeButton style={{ borderBottom: '0px' }}>
                                     <Modal.Title></Modal.Title>
                                 </Modal.Header>
-                                <Modal.Body className="pe-0 pb-0 pl-1" style={{ paddingTop: '8px' }}>
-                                    <div className="popup-fminter d-flex align-items-center">
-                                        <div className="text-center lh-base form-inter">
+                                <Modal.Body className="pe-0 pb-0 pl-1">
+                                    <div className="popup-fminter">
+                                        <div className="form-inter">
                                             <p>Fill out all required fields below and we will get back to you as soon as possible.</p>
                                             <form onSubmit={handleSubmit} className="con-form-page ">
                                                 <Row>
@@ -226,11 +226,11 @@ const Herosection = () => {
                                                         <div className="mb-4">
                                                             <Form.Select id="serviceName" name="serviceName" value={formData.serviceName} onChange={handleChange} className="w-100 p-2 fs_12" required>
                                                                 <option value="">Services</option>
-                                                                <option value="Interior Design">Interior Design</option>
-                                                                <option value="Architectural Services">Architectural Services</option>
+                                                                <option value="Full home interior decor">Full home interior decor</option>
                                                                 <option value="Modular Kitchen">Modular Kitchen</option>
+                                                                <option value="Interior Design">Renovation </option>
+                                                                <option value="Architectural Services">Architectural Services</option>
                                                                 <option value="Turnkey Service">Turnkey Service</option>
-                                                                <option value="Renovation">Renovation</option>
                                                             </Form.Select>
                                                             {errors.serviceName && (
                                                                 <p className="error" style={{ color: 'red' }}>

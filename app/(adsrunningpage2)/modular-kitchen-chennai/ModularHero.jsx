@@ -147,7 +147,6 @@ const ModularHero = () => {
                         <Col lg={12} className="p-0 hero-banner">
                             <Carousel fade className="modular-carousal">
                                 <Carousel.Item>
-                                    {/* <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735796661/arcmen/modular-kitchen-chennai/modular-babner-1.jpg" alt="First slide" /> */}
                                     <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740397907/modular-kitchen-banner_kbj17s.jpg" alt="First slide" />
                                     <Carousel.Caption>
                                         <h3>Unleash the Chef in You with Our Modular Kitchens!</h3>
@@ -155,7 +154,6 @@ const ModularHero = () => {
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    {/* <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735797019/arcmen/modular-kitchen-chennai/modular-babner-2.jpg" alt="Second slide" /> */}
                                     <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740398437/Modular-kitchen-banner3_hulcvn.jpg" alt="Second slide" />
                                     <Carousel.Caption>
                                         <h3>Transform Your Kitchen with Innovative Modular Designs</h3>
@@ -163,7 +161,6 @@ const ModularHero = () => {
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    {/* <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735797101/arcmen/modular-kitchen-chennai/modular-banner-3.jpg" alt="Third slide" /> */}
                                     <img className="d-block w-100" src="https://res.cloudinary.com/dpflidsbg/image/upload/v1740398441/modular-Kitchen-banner2_nccepg.jpg" alt="Third slide" />
                                     <Carousel.Caption>
                                         <h3>Your Dream Kitchen, Crafted to Perfection!</h3>
@@ -275,16 +272,6 @@ const ModularHero = () => {
                     </Row>
                 </Container>
             </section>
-            {/* <section>
-                <Container>
-                    <Row>
-                        <div className="">
-                            <h3>Island Kitchen Design</h3>
-                            <p>Arcmen Interior Island modular Kitchen Studio we done many iconic Island modular Kitchens in Chennai, Best island Modular Kitchen designer in Chennai & Tamilnadu.</p>
-                        </div>
-                    </Row>
-                </Container>
-            </section> */}
             <ModularKitchenChennai />
             <section className="pt-5 pb-5">
                 <Container>
@@ -342,7 +329,7 @@ const ModularHero = () => {
                                 <Modal.Header closeButton style={{ borderBottom: '0px' }}>
                                     <Modal.Title></Modal.Title>
                                 </Modal.Header>
-                                <Modal.Body className="pe-0 pb-0 pl-1" style={{ paddingTop: '4px' }}>
+                                <Modal.Body  >
                                     <div className="popup-fminter">
                                         <div className="form-inter">
                                             <p>Fill out all required fields below and we will get back to you as soon as possible</p>
@@ -370,17 +357,6 @@ const ModularHero = () => {
                                                         <div className="mb-2">
                                                             <input type="text" id="projectLocation" name="projectLocation" value={formData.projectLocation} onChange={handleChange} placeholder="Project Location" className="w-100 p-2" required />
                                                             {errors.projectLocation && <span className="text-danger">{errors.projectLocation}</span>}
-                                                        </div>
-                                                    </Col>
-                                                    <Col xs={12}>
-                                                        <div className="mb-2">
-                                                            <select id="budget" name="budget" value={formData.budget} onChange={handleChange} className="w-100 p-2" required>
-                                                                <option value="">Select Project Value</option>
-                                                                <option value="Above 2 Lakh">Above 2 Lakh</option>
-                                                                <option value="Above 4 Lakh">Above 4 Lakh</option>
-                                                                <option value="Above 8 Lakh">Above 8 Lakh</option>
-                                                            </select>
-                                                            {errors.budget && <span className="text-danger">{errors.budget}</span>}
                                                         </div>
                                                     </Col>
                                                     <Col lg={12}>
