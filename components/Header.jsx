@@ -376,7 +376,7 @@ const Header = () => {
                                                                     <option value="Interior Design">Interior Design</option>
                                                                     <option value="Architectural Services">Architectural Services</option>
                                                                     <option value="Modular Kitchen">Modular Kitchen</option>
-                                                                    <option value="Turnkey Service">Turnkey Service</option>
+                                                                    <option value="Turnkey Construction">Turnkey Construction</option>
                                                                     <option value="Renovation">Renovation</option>
                                                                 </Form.Select>
                                                                 {errors.serviceName && <span className="text-danger">{errors.serviceName}</span>}

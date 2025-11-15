@@ -230,7 +230,7 @@ const Herosection = () => {
                                                                 <option value="Modular Kitchen">Modular Kitchen</option>
                                                                 <option value="Interior Design">Renovation </option>
                                                                 <option value="Architectural Services">Architectural Services</option>
-                                                                <option value="Turnkey Service">Turnkey Service</option>
+                                                                <option value="Turnkey Construction">Turnkey Construction</option>
                                                             </Form.Select>
                                                             {errors.serviceName && (
                                                                 <p className="error" style={{ color: 'red' }}>

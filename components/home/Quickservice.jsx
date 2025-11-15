@@ -105,7 +105,7 @@ const Quickservice = () => {
                                             <option value="Modular Kitchen">Modular Kitchen</option>
                                             <option value="Interior Design">Renovation </option>
                                             <option value="Architectural Services">Architectural Services</option>
-                                            <option value="Turnkey Service">Turnkey Service</option>
+                                            <option value="Turnkey Construction">Turnkey Construction</option>
                                         </select>
                                         {errors.serviceName && <p className="error" style={{ color: "red" }}>{errors.serviceName}</p>}
                                     </div>

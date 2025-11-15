@@ -104,7 +104,7 @@ const InteriorPopup = () => {
                                 <option value="Interior Design">6-9 Lakhs</option>
                                 <option value="Architectural Services">9-12 Lakhs</option>
                                 <option value="Modular Kitchen">12 -15 Lakhs</option>
-                                <option value="Turnkey Service">Above 15 Lakhs</option>
+                                <option value="Turnkey Construction">Above 15 Lakhs</option>
                             </select>
                         </div>
                     </Col>
