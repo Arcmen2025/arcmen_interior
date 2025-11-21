@@ -29,7 +29,7 @@ const Footer = () => {
                                         <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189754/arcmen/Icons/instagram.png" alt="instagram" className="img-fluid" loading="lazy" />
                                     </Link>
                                 </div>
-                                <div>
+                                {/* <div>
                                     <Link href="https://www.youtube.com/channel/UCRD1RPuq6W64Z4TGoVDIByw" alt="youtube">
                                         <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189796/arcmen/Icons/youtube.png" alt="youtube" className="img-fluid" loading="lazy" />
                                     </Link>
@@ -38,7 +38,7 @@ const Footer = () => {
                                     <Link href="https://in.pinterest.com/arcmeninteriordesign/" alt="pinterest">
                                         <img src="https://res.cloudinary.com/dpflidsbg/image/upload/v1735189675/arcmen/Icons/pinterest.png" loading="lazy" alt="pinterest" className="img-fluid" />
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </Col>
 
