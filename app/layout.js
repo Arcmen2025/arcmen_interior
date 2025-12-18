@@ -1,11 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/responsive.scss';
 import './globals.css';
-import Header from '../components/Header';
-import Footer from '../components/Footer.jsx';
 import Script from 'next/script';
 
 export const metadata = {
+     metadataBase: new URL('https://www.arcmeninterior.com'),
     title: 'Best Interior designers & decorators in chennai | Arcmen',
     description: ['With 25 years of experience and 2000 + happy clients, Arcmen Interiors is one of the Top interior designers & decorators company in chennai. Lets build dreams'],
     keywords: [

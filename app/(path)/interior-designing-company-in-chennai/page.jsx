@@ -3,6 +3,9 @@ import React from 'react';
 import './Interiorstyle.scss';
 import InteriorHero from './InteriorHero';
 export const metadata = {
+    alternates: {
+      canonical: `interior-designing-company-in-chennai`,
+    },
     title: 'Best home interior designers & decorators in chennai ',
     description: "Arcmen Interiors Knows your home is your soul's story.As a top home interior designers & decorators in chennai, we tell it through masterful, luxurious design.",
 

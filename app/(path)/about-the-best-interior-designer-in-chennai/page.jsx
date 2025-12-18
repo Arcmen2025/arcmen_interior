@@ -3,6 +3,9 @@ import Aboutpage from './Aboutpage';
 
 export const metadata = {
     title: 'About Arcmen Interiors | Good Interiors in Chennai',
+    alternates: {
+      canonical: `/about-the-best-interior-designer-in-chennai`,
+    },
     description: ' Arcmen interiors is Chennai s trusted interior designer since 1995. We deleiver modern, personalized designs & turnkry execution with passion & precision.',
     keywords: [
         'interior decorators in chennai',

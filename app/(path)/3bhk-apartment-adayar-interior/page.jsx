@@ -169,8 +169,10 @@ const interiorProjects = [
 export async function generateMetadata() {
 
     const project = interiorProjects.find((project) => project.titleUrl === "3bhk-apartment-adayar-interior");
-
     const metadata = {
+        alternates: {
+      canonical: `/interiors/${params.slug}`,
+    },
         title: project ? project.metaTitle : 'Luxury interior designer in chennai | Luxury Interior Designer',
         description: project ? project.metaDescription : 'Luxury interior designer in Chennai, We provide affordable prices without sacrifice style, 27yr Exp, 45 days handover',
         keywords: project
