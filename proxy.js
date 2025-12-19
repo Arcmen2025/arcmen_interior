@@ -5,7 +5,9 @@ const protectedPaths = ['/admin-panel'];
 export function proxy(request) {
     const userToken = request.cookies.get('token')?.value;
     const isProtectedPath = protectedPaths.some((path) => request.nextUrl.pathname.startsWith(path));
-
+    if (isProtectedPath && !userToken) {
+        return NextResponse.redirect(new URL('/', request.url));
+    }
     if (isProtectedPath && !userToken) {
         const htmlResponse = `
             <!DOCTYPE html>
