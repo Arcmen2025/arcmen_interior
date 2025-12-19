@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function Architectinterior() {
     return (
-        <div clas>
+        <div>
             <section>
                 <Container fluid className="architect-interior-banner align-content-center">
                     <Row>

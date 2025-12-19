@@ -33,11 +33,8 @@ export const metadata = {
 };
 
 const page = () => {
-    const user = process.env;
     return (
-        <div>
             <Aboutpage />
-        </div>
     );
 };
 
